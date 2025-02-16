@@ -1,0 +1,14 @@
+/* .large-button {
+    font-size: 1.25rem;  /* Larger text */
+    /* padding: 1em 2em;    Increase padding */
+    /* You can also set width/height or other properties here */
+  /* } */
+/* .center-links{
+    text-align: center;
+} */
+.horizontal-menu{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    gap: 1rem;
+}
