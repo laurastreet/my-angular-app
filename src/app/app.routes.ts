@@ -7,7 +7,7 @@ import { PrintinventoryComponent } from './printinventory/printinventory.compone
 import { LowstockalertComponent } from './lowstockalert/lowstockalert.component';
 
 export const routes: Routes = [
-    {path: '',redirectTo:'addinventory',pathMatch:'full'},          //default URL
+    // {path: '',redirectTo:'addinventory',pathMatch:'full'},          //default URL
     {path: 'addinventory',component:AddinventoryComponent},
     {path: 'delinventory',component:DelinventoryComponent},
     {path: 'updateinventory',component:UpdateinventoryComponent},

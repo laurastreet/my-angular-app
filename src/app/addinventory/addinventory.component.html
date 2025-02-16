@@ -1,11 +1,17 @@
-<nav class="vertical-menu">
+<nav class="vertical-menu"> 
 <p>
     Name
+    <input type="text" [(ngModel)]="productName" placeholder="Enter text">
+    You typed: {{ productName }}
 </p>
 <p>
     Quantity
+    <input type="text" [(ngModel)]="quantity" placeholder="Enter text">
+    You typed: {{ quantity }}
 </p>
 <p>
     Price
+    <input type="text" [(ngModel)]="price" placeholder="Enter text">
+    You typed: {{ price }}
 </p>
 </nav>

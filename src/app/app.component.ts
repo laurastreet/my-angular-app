@@ -1,41 +1,17 @@
 import { Component } from '@angular/core';
-import { RouterModule, RouterOutlet } from '@angular/router';
+import { RouterOutlet,RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet,RouterModule],
+  imports: [RouterOutlet,RouterLink],
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
+  styleUrl: './app.component.css'
 })
 export class AppComponent {
-  // title = 'my-angular-app';
-  // items: string[] = [];
+  title = 'my-angular-app';
 
-  // onAdd(): void {
-  //   // console.log('Add button clicked');
-  //   // You can perform other actions here, like adding an item to a list
-  //   this.items.push("New item");
-  // }
-
-  // onDelete(): void {
-  //   // console.log('Add button clicked');
-  //   // You can perform other actions here, like adding an item to a list
-  //   // this.items.splice(index,1);
-  // }
-
-  // onUpdate(): void {
-  //   console.log('Add button clicked');
-  //   // You can perform other actions here, like adding an item to a list
-  // }
-
-  // onPrint(): void {
-  //   console.log('Add button clicked');
-  //   // You can perform other actions here, like adding an item to a list
-  // }
-
-  // onLowStockAlert(): void {
-  //   console.log('Add button clicked');
-  //   // You can perform other actions here, like adding an item to a list
-  // }
+  onAdd(): void {
+    console.log('Add button clicked');
+    // You can perform other actions here, like adding an item to a list
+  }
 }
